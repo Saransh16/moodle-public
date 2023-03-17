@@ -1,0 +1,13 @@
+version = 1
+
+[[analyzers]]
+name = "php"
+
+  [analyzers.meta]
+  bootstrap_files = ["lib/htmlpurifier/HTMLPurifier/Bootstrap.php"]
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "sql"
